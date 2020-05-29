@@ -40,7 +40,7 @@ class _NewsCategoriesState extends State<NewsCategories> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "Flutter",
+              "Make",
               style:
               TextStyle(color: Colors.black87, fontWeight: FontWeight.w600),
             ),

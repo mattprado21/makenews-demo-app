@@ -1,11 +1,9 @@
   
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class ArticleContent extends StatefulWidget {
-
   final String postUrl;
   ArticleContent({@required this.postUrl});
 
@@ -14,8 +12,9 @@ class ArticleContent extends StatefulWidget {
 }
 
 class _ArticleContentState extends State<ArticleContent> {
-
+  /// Web view of news
   final Completer<WebViewController> _controller = Completer<WebViewController>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +23,7 @@ class _ArticleContentState extends State<ArticleContent> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "Flutter",
+              "Make",
               style:
               TextStyle(color: Colors.black87, fontWeight: FontWeight.w600),
             ),
